@@ -8,8 +8,8 @@ class Movie {
   }
   add() {
     movieArr.push(this);
-    console.log(movieArr)
+    console.log(...movieArr)
   }
 }
 
-module.exports = Movie;""
+module.exports = Movie;
